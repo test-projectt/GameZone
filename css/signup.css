@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size:cover ;
+    background-attachment: fixed;
+    background-image: url(../img/sign.jpeg);
+
+}
+div.signup{
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(3, 18, 2, 0.905);
+    width: 65%;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: -2%;
+}
+
+@media (max-width: 576px) {
+    div.signup {
+        width: 93%;
+        height: 500px;
+    }
+}
+
+
+.sign{
+    font-size: 38px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.ag{
+    font-size: 59px;
+    font-family: fantasy;
+    color: #07c207;
+    text-align: center;
+    text-shadow: black 4px 5px 6px;
+}
+.h2{
+    font-size: 37px;
+    margin-top: 5px;
+    margin-bottom: 11px;
+    color: white;
+}
+.email{
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+.pass{
+    margin-top: 15px;
+}
+.logiin{
+    width: 47%;
+    border-radius:4px;
+    background: #015e01;
+    margin: 14px;
+    height: 36px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+}
+
+
+
+.inemail{
+    width: 50%;
+    border-radius:4px;
+    height: 30px;
+    background-color: #ffffff;
+}
+.inpass{
+    width: 50%;
+    border-radius:4px;
+    height: 30px;
+    background-color: #ffffff;
+}
+.inname{
+    width: 50%;
+    border-radius:4px;
+    height: 30px;
+    background-color: #ffffff;
+}
+.name{
+    margin-top: 15px;
+}
+
+
+.link{
+
+    text-decoration: none;
+    color: #07c207;
+}

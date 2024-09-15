@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #27282e !important; 
+}
+nav {
+    background-color: #161618;
+    padding: 10px 0;
+    border-bottom: 2px solid #07c207;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #07c207;
+}
+
+.title-header {
+    color: #07c207;
+    padding-left: 7% ;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.categoryes{
+    width: 40% !important ;
+    height: 45px;
+    border: solid 3px #07c207 !important;
+    border-radius: 7px !important;
+    transition: width 0.4s ease !important;
+    margin-right: 2%;
+}
+
+.categoryes:focus {
+    width: 50% !important;
+    outline: none !important;
+    box-shadow: 0 0 8px #07c207 !important;
+}
+
+.search-bar {
+    width: 40% !important ;
+    height: 45px;
+    border: solid 3px #07c207 !important;
+    border-radius: 7px !important;
+    transition: width 0.4s ease !important;
+}
+
+
+.search-bar:focus {
+    width: 50% !important;
+    outline: none !important;
+    box-shadow: 0 0 8px #07c207 !important;
+}
+
+
+.reg-header {
+    text-decoration: none;
+    color: #ffffff !important;
+    font-size: 1.6rem !important;
+    margin-right: 10px ;
+    transition: color 0.3s ease;
+}
+
+
+
+.reg-header:hover {
+    color: #00af00 !important;
+    text-shadow: 0 0 5px #07c207;
+}
+
+.reg-header2 {
+    text-decoration: none;
+    color: #ffffff !important;
+    font-size: 1.6rem !important;
+    margin-right: 10px ;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    .title-header {
+        font-size: 1.5rem;
+    }
+
+    .reg-header {
+        font-size: 1rem;
+        margin-right: 5px;
+    }
+
+    .gg{
+        padding-top: 26% !important;
+    }
+    
+    
+.carts-prod {
+    width: 250px !important;
+}
+
+}
+
+
+
+.card{
+    margin-left: 40px;
+    width: 500px;
+    transition: 0.3s;
+    margin: auto;
+}
+
+.card-tittle{
+    display: inline-block;
+}
+
+.card:hover{
+    box-shadow: -1px -1px 20px 9px #009108;
+
+}
+.card-img-top{
+    height: 300px;
+}
+
+.carts-prod{
+    position: absolute;
+    transform: translate(100px, 4px);
+    width: 300px;
+    background-color: #27282e;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #07c207;
+    border-radius: 5px;
+}
+
+.view-prod {   
+    display: block;
+    color: #000;
+    margin: 4px 0;
+    background-color: rgb(91, 218, 0);
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.plus{
+    color: #009108;
+    text-align: right;
+}
+.minus{
+    color:rgb(167, 27, 27);
+    text-align: right;
+}
+
+.cart-div{
+    text-align: left;
+}
+
+.backhome{
+    width: 200px;
+    height: 32px;
+    background-color: #07c207;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.my-fav{
+    color: #07c207;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top:5% ;
+}
+
+.fav-line{
+    width: 15%;
+    height: 4px;
+    background-color: #ffffff;
+    margin: auto;
+    transition: 0.3s;
+}
+.my-fav1:hover .fav-line{
+    width: 20%;
+}
+
+.cartnum{
+    width: 15px !important; 
+    height: 25px;
+    display: inline-block;
+    background-color: #07c207;
+    border-radius: 10px;
+    margin-left:-15px; 
+    text-align: center;
+}
+
+.logout{
+    margin-right: 25px;
+     display: inline;
+      text-decoration: none; 
+      margin-left: 50px;
+}
+
+.total-price {
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #088006;
+    width: fit-content;
+    height: 72px;
+    padding: 20px;
+}
+.nav-item{
+    float: left;
+}
+
+.add-to-cart-btn {
+    background-color: #07c207;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn.added {
+    background-color: red;
+    color: white;
+}
+
+.favourit{
+    position: absolute;
+    transform: translate(283px, -11px);
+    font-size: 30px;
+}
+.add-btn{
+    position: absolute;
+    transform: translate(-2px, -11px);
+}
+
+.favorit.active {
+    color: green; 
+}
